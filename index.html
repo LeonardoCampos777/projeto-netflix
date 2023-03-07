@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/netflix2.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/Netflix_2015_logo.svg.png" alt="">
+    </header>
+    <main>
+        <section id="login">
+                <div id="entrar">
+                   <h1>Entrar</h1> 
+                </div>
+                <div id="formulario">
+                    <form action="login.php" method="post">
+                        <div class="campo">
+                            <label for="iemail"></label>
+                            <input type="email" name="email" id="iemail" placeholder="Email ou número de telefone" required>
+                        </div>       
+                        <div class="campo">
+                            <label for="isenha"></label>
+                            <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8">
+                        </div>
+                        <input type="submit" value="Entrar"><br>                   
+                        <input type="checkbox" name="check" id="icheck">
+                        <label class="check" for="icheck">Lembre-se de mim</label>
+                    </form>
+                </div>
+            <article>
+                <p>Novo por aqui ? <a href="#">Assine agora</a></p>
+                <p id="paragrafo">esta página é protegida pelo Google reCAPTCHA <br> para garantir que você não é um robô.<a href="#">Saiba mais</a>. </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Leonardo Campos</p>
+    </footer>
+</body>
+</html>
